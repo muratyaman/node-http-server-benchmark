@@ -1,0 +1,30 @@
+{
+  "name": "node-http-server-benchmark",
+  "version": "1.0.0",
+  "description": "Comparison of performance - requests per second - using Node HTTP server, text, JSON, PostgreSQL query results",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muratyaman/node-http-server-benchmark.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "server",
+    "benchmark"
+  ],
+  "author": "Haci Murat Yaman",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/muratyaman/node-http-server-benchmark/issues"
+  },
+  "homepage": "https://github.com/muratyaman/node-http-server-benchmark#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "pg": "^8.7.3"
+  }
+}
